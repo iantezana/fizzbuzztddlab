@@ -4,7 +4,11 @@ function fizzbuzz(number) {
     }
 
     if (number % 5 === 0) {
-        return "Bu";
+        return "Buzz";
+    }
+
+    if ((number % 5 ==0)&&(number %3 === 0)) {
+        return "Buzz";
     }
  
     return number.toString();
